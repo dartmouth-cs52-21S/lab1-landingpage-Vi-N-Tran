@@ -11,38 +11,34 @@
 
   <body>
     <header>
-      <a class='' href=''>
-        <img class='' src='./images/logo.sv' alt='Vitalize Logo'>
-      </a>
-      <div class='container'>
-        <nav class=''>
-          <div class='' id=''>
-            <ul class=''>
-              <li class='nav-item'>
-                <a class='nav-link' href='/'>Home</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='/features'>About</a>
-              </li>
-              <li class='nav-item'>
-                <a class='nav-link' href='/pricing'>Our Team</a>
-              </li>
-              <li class='nav-cta'>
-                <a class='nav-link' href=''>Get Early Access</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
+      <nav>
+        <img class='logo' src='./images/logo.svg' alt='Vitalize Logo'>
+        <ul class='row'>
+          <li class='nav-item'>
+            <a class='nav-link' href='#intro'>Home</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#problem'>About</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#team'>Our Team</a>
+          </li>
+          <li class='nav-cta'>
+            <!-- <div class='nav-cta'> -->
+              <a class='nav-link-cta' href=''>Get Early Access</a>
+            <!-- </div> -->
+          </li>
+        </ul>
+      </nav>
     </header>
 
-    <div class='intro'>
-      <div class='cloudsContainer'>
-        <img class='' src='./images/upper_clouds.sv' alt='clouds'>
-        <img class='' src='./images/lower_clouds.sv' alt='clouds'>
+    <div id='intro'>
+      <div class='big-container'>
+        <img style='width: 100%;' src='./images/upper_clouds.svg' alt='clouds'>
+        <img style='width: 100%;' src='./images/lower_clouds.svg' alt='clouds'>
       </div>
-      <div class='intro-headlines'>
-        <p>VITALIZE INC.</p>
+      <div class="small-container" style="margin-top: 3%">
+        <p style='color: #2d4093;'>VITALIZE LLC.</p>
         <h1>Feel Better,</h1>
         <h1>Treat Better.</h1>
         <p>
@@ -51,230 +47,250 @@
           Get your personalized mental health support today.
         </p>
         <a class='' href=''>
-          <div>
+          <button class='cta-button'>
             <p>
               Get Early Access
             </p>
-          </div>
+          </button>
         </a>
         <a class='' href=''>
-          <div>
+          <button class="secondary-button">
             <p>
               Contact Us
             </p>
-          </div>
+          </button>
         </a>
       </div>
     </div>
 
     <div id='problem'>
-      <div class=''>
-        <h2>Over <span>40%</span> of healthcare providers report experiencing burnout.</h2>
-        <p>
-          Vitalize aims to protect clinicians from burnout by integrating wellness into their daily schedules. 
-          During these times, it is essential that providers do not lose sight of mental health support.
-        </p>
-      </div>
-
-      <div>
-        <img id='' src='./images/doctor.jp' alt='doctor'>
+      <div class="container">
+        <div class='big-container'>
+          <h2>Over <span class="purple-text">40%</span> of healthcare providers report experiencing burnout.</h2>
+          <p style="line-height: 2.5em;">
+            Vitalize aims to protect clinicians from burnout by integrating wellness into their daily schedules. 
+            During these times, it is essential that providers do not lose sight of mental health support.
+          </p>
+        </div>
+        <div class="big-container centered">
+          <img src='./images/doctor.jpg' alt='doctor' style='width:40%'>
+        </div>
       </div>
     </div>
 
     <div id='benefits'>
-      <div class='card'>
-        <img>
-        <p>Adapts to <span class='purple-text'>Busy, Irregular Schedules</span></p>
-      </div>
-      <div class='card'>
-        <img>
-        <p><span class='purple-text'>Anonymous</span> and <span class='purple-text'>Stigma-Free</span></p>
-      </div>
-      <div class='card'>
-        <img>
-        <p>Wellness-Centered <span class='purple-text'>Peer Support</span></p>
-      </div>
-      <div class='card'>
-        <img>
-        <p><span class='purple-text'>Customizable</span> Notifications</p>
+      <div class='row wrap centered'>
+        <div class='card'>
+          <img class='card-img' src='./images/calendar.svg'>
+          <p>Adapts to <span class='purple-text'>Busy, Irregular Schedules</span></p>
+        </div>
+        <div class='card'>
+          <img class='card-img' src='./images/lock.svg'>
+          <p><span class='purple-text'>Anonymous</span> and <span class='purple-text'>Stigma-Free</span></p>
+        </div>
+        <div class='card'>
+          <img class='card-img' src='./images/hand.svg'>
+          <p>Wellness-Centered <span class='purple-text'>Peer Support</span></p>
+        </div>
+        <div class='card'>
+          <img class='card-img' src='./images/bell.svg'>
+          <p><span class='purple-text'>Customizable</span> Notifications and Tips</p>
+        </div>
       </div>
     </div>
 
-    <div id='solution'>
-      <div class='left'>
-        <div class='container'>
-          <div class='keypoint'>
-            <img>
+    <div id='solution' class='row'>
+      <div class='big-container'>
+        <div class='solution-container'>
+          <div class='centered '>
+            <img class='keypoint-img' src='./images/yellow_hand.svg'>
             <div>
               <h2>My Wellness</h2>
               <p>Start your wellness journey with goals and analytics.</p>
             </div>
           </div>
-          <div class='keypoint'>
-            <img>
+          <div class='centered '>
+            <img class='keypoint-img' src='./images/yellow-book.svg'>
             <div>
               <h2>Journaling</h2>
               <p>Improve mindfullness through daily self-reflection.</p>
             </div>
           </div>
-          <div class='keypoint'>
-            <img>
+          <div class='centered'>
+            <img class='keypoint-img' src='./images/yellow-meditation.svg'>
             <div>
               <h2>Meditation</h2>
               <p>Complete short wellness modules anytime, anywhere.</p>
             </div>
           </div>
         </div>
-
       </div>
-      <div class='right'>
-        <img id='' src='./images/mockup.pn' alt='doctor'>
+      <div class='small-container centered'>
+        <img class="mockup" src='./images/mockup.png' alt='mockup'>
       </div>
     </div>
 
     <div id='tracks'>
-      <h2>Meditation modules tailored to the <span class='purple-text'>unique needs</span> specifically for clinicians.</h2>
-      <div class='tracks-container'>
-        <div class='track-card'>
-          <p>Work Relationships</p>
+      <h2 class='track-title'>Meditation modules tailored to the <span class='purple-text'>unique needs</span> specifically for clinicians.</h2>
+      <div class='tracks-container centered'>
+        <div class='track-card' style='background-image: url(./images/work-relationship.svg);'>
+          <p class="dark-grey-text">Work Relationships</p>
+        </div>
+        <div class='track-card' style='background-image: url(./images/breaking-routine.svg);'>
+          <p class="dark-grey-text">Breaking Routine</p>
+        </div>
+        <div class='track-card' style='background-image: url(./images/rediscovering-purpose.svg);'>
+          <p class="dark-grey-text">Rediscovering Purpose</p>
           <img>
         </div>
-        <div class='track-card'>
-          <p>Breaking Routine</p>
+        <div class='track-card' style='background-image: url(./images/worklife-balance.svg);'>
+          <p class="dark-grey-text">Work-Life Balance</p>
           <img>
         </div>
-        <div class='track-card'>
-          <p>Rediscovering Purpose</p>
+        <div class='track-card' style='background-image: url(./images/patient-gratification.svg);'>
+          <p class="dark-grey-text">Patient Gratification</p>
           <img>
         </div>
-        <div class='track-card'>
-          <p>Work-Life Balance</p>
+        <div class='track-card' style='background-image: url(./images/slowing-down.svg);'>
+          <p class="dark-grey-text">Slowing Down</p>
           <img>
         </div>
-        <div class='track-card'>
-          <p>Patient Gratification</p>
+        <div class='track-card' style='background-image: url(./images/coping-with-grief.svg);'>
+          <p class="dark-grey-text">Coping with Grief</p>
           <img>
         </div>
-        <div class='track-card'>
-          <p>Slowing Down</p>
-          <img>
-        </div>
-        <div class='track-card'>
-          <p>Coping with Grief</p>
-          <img>
-        </div>
-        <div class='track-card'>
-          <p>Daily Frustration</p>
+        <div class='track-card' style='background-image: url(./images/daily-frustration.svg);'>
+          <p class="dark-grey-text">Daily Frustration</p>
           <img>
         </div>
       </div>
     </div>
 
     <div id='contact'>
-      <div class='left'>
-        <img src='./images/cloud_character.pn'>
+      <div class='small-container column centered'>
+        <img class='cloud-character' src='./images/smile-cloudy.svg'>
+        <img class='cloud-character' src='./images/breathe-cloudy.svg'>
       </div>
-      <div class='right'>
+      <div class='small-container'>
         <h2>Contact Us</h2>
         <p>
           Burnout is a public health crisis. 
           Healthcare providers are three times more likely to make medical errors, 
           leading to six billion annual costs to our healthcare system.
+          Interested in partnering with us? 
         </p>
-        <br>
-        <p>Interested in partnering with us? With Vitalize, your hospital providers will receive:</p>
+      
+        <p>With Vitalize, your hospital providers will receive:</p>
+        <div>
+          <div class="row">
+            <img style='margin-right: 2%;' src='./images/check.svg'>
+            <p>Conveniently delivered mindfulness</p>
+          </div>
+          <div class="row">
+            <img style='margin-right: 2%;' src='./images/check.svg'>
+            <p>Analytics on staff engagement and wellness</p>
+          </div>
+          <div class="row">
+            <img style='margin-right: 2%;' src='./images/check.svg'>
+            <p>Stronger culture of wellness</p>
+          </div>
+        </div>
+        <div style='margin-top: 2%;'>
+          <input class='contact-input'>
+          <button class="cta-button"><p>
+              Submit  
+          </p></button>
+        </div>
+        <p class="dark-grey-text">By clicking “Submit” you accept that we can contact you for further details. We will not share your email address or spam you with emails.</p>
       </div>
     </div>
 
     <div id='team'>
-      <h2>Meet the Vitalize team!</h2>
-      <div class='team-card'>
-        <img>
-        <h2>Veeraj Shah</h2>
-        <p>Co-founder, co-CEO</p>
-      </div>
-      <div class='team-card'>
-        <img>
-        <h2>Sanketh Andhavarapu</h2>
-        <p>Co-founder, co-CEO</p>
-      </div>
-      <div class='team-card'>
-        <img>
-        <h2>Vi Tran</h2>
-        <p>Co-founder, CTO</p>
+      <h2 class="track-title">Meet the Vitalize team!</h2>
+      <div class="row" style='display: flex; justify-content: space-evenly;'>
+        <div class='team-card'>
+          <img class='team-img' src="./images/veeraj.png" alt='Veeraj Shah, Co-CEO'>
+          <h2 class='margin-bottom-0'>Veeraj Shah</h2>
+          <p>Co-founder, co-CEO</p>
+        </div>
+        <div class='team-card'>
+          <img class='team-img' src='./images/sanketh.png' alt='Sanketh Andhavarapu'>
+          <h2 class='margin-bottom-0' >Sanketh A.</h2>
+          <p>Co-founder, co-CEO</p>
+        </div>
+        <div class='team-card'>
+          <img class='team-img' src='./images/vi.png' alt='Vi Tran, CTO'>
+          <h2 class='margin-bottom-0'>Vi Tran</h2>
+          <p>Co-founder, CTO</p>
+        </div>
       </div>
     </div>
 
     <div id='advisors'>
       <h2>Our Advisors and Collaborators</h2>
-      <div>
-        <div class='team-card'>
-          <img>
-          <h2>Dr. O’Donovan, MD</h2>
+      <div class="row wrap centered">
+        <div class='team-card advisor'>
+          <img class='team-img' src='./images/odonovan.png' alt=''>
+          <h2 class='margin-bottom-0'>Dr. O’Donovan, MD</h2>
           <p>Physician Wellness, Burnout, and Resilience</p>
         </div>
-        <div class='team-card'>
-          <img>
-          <h2>AmarAtma Khalasa</h2>
+        <div class='team-card advisor'>
+          <img class='team-img' src='./images/amaratma.png' alt=''>
+          <h2 class='margin-bottom-0'>AmarAtma Khalasa</h2>
           <p>Mindfulness Coach for Physicians</p>
         </div>
-        <div class='team-card'>
-          <img>
-          <h2>Dr. Sehgal, PhD</h2>
-          <p>Digital Health and Healthcare Delivery</p>
+        <div class='team-card advisor'>
+          <img class='team-img' src='./images/segal.png' alt=''>
+          <h2 class='margin-bottom-0'>Dr. Sehgal, PhD</h2>
+          <p>Digital Health, Healthcare Delivery</p>
         </div>
-        <div class='team-card'>
-          <img>
-          <h2>Dr. Seale, DHSc</h2>
-          <p>Health Informatics and Policy</p>
+        <div class='team-card advisor'>
+          <img class='team-img' src='./images/seale.png' alt=''>
+          <h2 class='margin-bottom-0'>Dr. Seale, DHSc</h2>
+          <p>Health Informatics and Health Policy</p>
         </div>
       </div>
-      <img>
+      <div class='centered'>
+        <img class='collaborator' src='./images/collaborators.png'>
+      </div>
     </div>
   </body>
+
   <footer>
-    <div>
-      <div class='left'>
-        <div>
-          <p>Vitalize</p>
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-          </ul>
-        </div>
-        <div>
-          <p>Information</p>
-          <ul>
-            <li>FAQ</li>
-            <li>Support</li>
-          </ul>
-        </div>
+    <div class="row" style="display:flex; justify-content: space-evenly;">
+      <div>
+        <p style='font-weight: bold;'>Vitalize</p>
+        <ul>
+          <li><p>Home</p></li>
+          <li><p>About Us</p></li>
+        </ul>
       </div>
-      <div class='right'>
-        <div>
-          <p>Contact Us</p>
-          <input>
-          <small>Interested in partnering with Vitalize? We’re able to work with hospitals and clients to deliver accessibility to clinician-centered wellness. </small>
-        </div>
+      <div>
+        <p style='font-weight: bold;'>Information</p>
+        <ul>
+          <li><p>FAQ</p></li>
+          <li><p>Support</p></li>
+        </ul>
       </div>
+        <div class="footer-contact">
+          <p style='font-weight: bold;'>Contact Us</p>
+          <div class="row">
+            <input class="footer-input">
+            <button class="footer-button">
+              Send
+            </button>
+          </div>
+          <p>Interested in partnering with Vitalize? We’re able to work with hospitals and clients to deliver accessibility to clinician-centered wellness. </p>
+        </div>
     </div>
     <hr>
-    <div>
-      <div>
-        <img>
-      </div>
-      <div>
-        <ul>
-          <li>Terms</li>
-          <li>Privacy</li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li>linked in</li>
-        </ul>
-      </div>
+    <div class="row footer-bottom">
+      <img src="./images/mini-logo.svg" class="mini-logo">
+      <ul class="row">
+        <li><p class="margin-inline">Terms</p></li>
+        <li><p class="margin-inline">Privacy</p></li>
+      </ul>
+      <img src="./images/linkedin.svg">
     </div>
   </footer>
 </html>
