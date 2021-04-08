@@ -1,6 +1,6 @@
 # Vitalize landing page
 Developed a landing page for Vitalize, the first wellness app tailored to clinicians. Seamlessly integrate evidence-based wellness modules into your busy workday. Get your personalized mental health support today.
-[deployed url](http://url-if-deployed-here)
+[deployed url](https://dartmouth-cs52-21s.github.io/lab1-landingpage-Vi-N-Tran/)
 
 ## What Worked Well
 Images of same size worked out well because I didn't need to do much customization for them, just apply one styling for all of them. Another thing is I created general, common styling, which was nice to recycle i multiple places. Developing the website on mobile then expand to desktop also made the progress easier
