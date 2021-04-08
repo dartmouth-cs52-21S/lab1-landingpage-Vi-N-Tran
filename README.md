@@ -6,7 +6,7 @@ Developed a landing page for Vitalize, the first wellness app tailored to clinic
 Images of same size worked out well because I didn't need to do much customization for them, just apply one styling for all of them. Another thing is I created general, common styling, which was nice to recycle i multiple places. Developing the website on mobile then expand to desktop also made the progress easier
 
 ## What Didn't
-Making the website responsive is difficult because I had to worry about the different screen sizes. Given time constraints, I decided to just optimize for one common use size, then make it 'good enough' for other sizes. 
+Making the website responsive is difficult because I had to worry about the different screen sizes. Given time constraints, I decided to just optimize for one common use size (iphone 10X), then make it 'good enough' for other sizes. 
 
 ## Extra Credit
 hamburger menu, hover on nav, cloud, team cards, link to linked in, did my own design
