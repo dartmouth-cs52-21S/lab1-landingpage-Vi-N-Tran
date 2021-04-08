@@ -10,25 +10,27 @@
   </head>
 
   <body>
+    <input type='checkbox' id='toggle'>
     <header>
       <nav>
         <img class='logo' src='./images/logo.svg' alt='Vitalize Logo'>
-        <ul class='row'>
-          <li class='nav-item'>
-            <a class='nav-link' href='#intro'>Home</a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#problem'>About</a>
-          </li>
-          <li class='nav-item'>
-            <a class='nav-link' href='#team'>Our Team</a>
-          </li>
-          <li class='nav-cta'>
-            <!-- <div class='nav-cta'> -->
-              <a class='nav-link-cta' href=''>Get Early Access</a>
-            <!-- </div> -->
-          </li>
-        </ul>
+        <div class="mobile-nav">
+          <label for='toggle'>&#9776</label>
+          <ul class='menu' class='row'>
+            <li class='nav-item'>
+              <a class='nav-link' href='#intro'>Home</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href='#problem'>About</a>
+            </li>
+            <li class='nav-item'>
+              <a class='nav-link' href='#team'>Our Team</a>
+            </li>
+            <li class='nav-cta'>
+                <a class='nav-link-cta' href=''>Get Early Access</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     </header>
 
@@ -102,21 +104,21 @@
     <div id='solution' class='row'>
       <div class='big-container'>
         <div class='solution-container'>
-          <div class='centered '>
+          <div class='keypoint'>
             <img class='keypoint-img' src='./images/yellow_hand.svg'>
             <div>
               <h2>My Wellness</h2>
               <p>Start your wellness journey with goals and analytics.</p>
             </div>
           </div>
-          <div class='centered '>
+          <div class='keypoint'>
             <img class='keypoint-img' src='./images/yellow-book.svg'>
             <div>
               <h2>Journaling</h2>
               <p>Improve mindfullness through daily self-reflection.</p>
             </div>
           </div>
-          <div class='centered'>
+          <div class='keypoint'>
             <img class='keypoint-img' src='./images/yellow-meditation.svg'>
             <div>
               <h2>Meditation</h2>
@@ -181,7 +183,7 @@
         </p>
       
         <p>With Vitalize, your hospital providers will receive:</p>
-        <div>
+        <div class="checks">
           <div class="row">
             <img style='margin-right: 2%;' src='./images/check.svg'>
             <p>Conveniently delivered mindfulness</p>
@@ -207,27 +209,36 @@
 
     <div id='team'>
       <h2 class="track-title">Meet the Vitalize team!</h2>
-      <div class="row" style='display: flex; justify-content: space-evenly;'>
+      <div class="row team">
         <div class='team-card'>
           <img class='team-img' src="./images/veeraj.png" alt='Veeraj Shah, Co-CEO'>
           <h2 class='margin-bottom-0'>Veeraj Shah</h2>
           <p>Co-founder, co-CEO</p>
+          <a href="https://www.linkedin.com/in/veeraj-shah-125563125/">
+            <img src="./images/linkedin.svg" style='margin-bottom: 5px;'>
+          </a>
         </div>
         <div class='team-card'>
           <img class='team-img' src='./images/sanketh.png' alt='Sanketh Andhavarapu'>
           <h2 class='margin-bottom-0' >Sanketh A.</h2>
           <p>Co-founder, co-CEO</p>
+          <a href="https://www.linkedin.com/in/sanketh-andhavarapu/">
+            <img src="./images/linkedin.svg" style='margin-bottom: 5px;'>
+          </a>
         </div>
         <div class='team-card'>
           <img class='team-img' src='./images/vi.png' alt='Vi Tran, CTO'>
           <h2 class='margin-bottom-0'>Vi Tran</h2>
           <p>Co-founder, CTO</p>
+          <a href="https://www.linkedin.com/in/vi-n-tran/">
+            <img src="./images/linkedin.svg" style='margin-bottom: 5px;'>
+          </a>
         </div>
       </div>
     </div>
 
     <div id='advisors'>
-      <h2>Our Advisors and Collaborators</h2>
+      <h2 class='track-title'>Our Advisors and Collaborators</h2>
       <div class="row wrap centered">
         <div class='team-card advisor'>
           <img class='team-img' src='./images/odonovan.png' alt=''>
@@ -277,7 +288,7 @@
           <div class="row">
             <input class="footer-input">
             <button class="footer-button">
-              Send
+              <img src='./images/arrow_forward.svg'">
             </button>
           </div>
           <p>Interested in partnering with Vitalize? We’re able to work with hospitals and clients to deliver accessibility to clinician-centered wellness. </p>
@@ -290,7 +301,9 @@
         <li><p class="margin-inline">Terms</p></li>
         <li><p class="margin-inline">Privacy</p></li>
       </ul>
-      <img src="./images/linkedin.svg">
+      <a href='https://www.linkedin.com/company/appvitalize/'>
+        <img src="./images/linkedin.svg">
+      </a>
     </div>
   </footer>
 </html>
