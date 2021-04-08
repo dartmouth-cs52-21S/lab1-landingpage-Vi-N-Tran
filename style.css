@@ -126,6 +126,7 @@ label{
   height: 100%;
   width: 40%;
   align-items: flex-end;
+  text-align: right;
 }
 #toggle:checked~header .menu{
   align-items: flex-end;
