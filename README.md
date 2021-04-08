@@ -14,4 +14,5 @@ hamburger menu, hover on nav, cloud, team cards, link to linked in, did my own d
 ## Screenshots
 ![screencapture-file-Users-vitran-Documents-cs52-lab1-landingpage-Vi-N-Tran-index-html-2021-04-07-17_37_49](https://user-images.githubusercontent.com/56491776/113951231-00f14f80-97c8-11eb-929e-457028c79eb5.png)
 ![screencapture-file-Users-vitran-Documents-cs52-lab1-landingpage-Vi-N-Tran-index-html-2021-04-07-17_38_42](https://user-images.githubusercontent.com/56491776/113951274-1c5c5a80-97c8-11eb-9533-3c40ad9ad2a5.png)
+![screencapture-file-Users-vitran-Documents-cs52-lab1-landingpage-Vi-N-Tran-index-html-2021-04-05-23_48_38](https://user-images.githubusercontent.com/56491776/113962559-c7770f00-97dc-11eb-8769-a0e8332432c2.png)
 
